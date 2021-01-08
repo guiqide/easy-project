@@ -6,3 +6,4 @@ dist
 .DS_Store
 lerna-debug.log
 **/*/__tests__
+package-lock.json
