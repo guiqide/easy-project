@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "git@git.code.oa.com:easy-client/generate-project-boilerplate.git",
   "author": "kevingui <kevingui@tencent.com>",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "lint": "eslint packages --ext .jsx,js,ts,tsx",
     "lint:fix": "eslint packages --ext .jsx,js,ts,tsx --fix",
@@ -32,6 +32,7 @@
     "eslint-plugin-prettier": "^3.3.0",
     "husky": "^4.3.6",
     "inquirer": "^7.3.3",
+    "lerna": "^3.22.1",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "semver": "^7.3.4",
@@ -67,5 +68,9 @@
       "config": ".cz-config.js"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "global": "^4.4.0",
+    "i": "^0.3.6",
+    "lerna-wizard": "^1.1.1"
+  }
 }
