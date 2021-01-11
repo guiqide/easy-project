@@ -24,6 +24,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "fast-copy": "^2.1.1"
+    "lodash": "^4.17.20"
   }
 }
