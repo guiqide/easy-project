@@ -3,12 +3,6 @@ import fs from "fs";
 import { IPluginData, IUse } from "./interface";
 import shell from "shelljs";
 
-interface IOptions {
-  projectName: string;
-  selectedPlugins: IPluginData[];
-  isExistProject: boolean;
-}
-
 const pluginList: IPluginData[] = [];
 
 const pluginsNames: string[] = [];

@@ -1,11 +1,11 @@
-# `import-core`
+# `shared`
 
 > TODO: description
 
 ## Usage
 
 ```
-const importCore = require('import-core');
+const shared = require('shared');
 
 // TODO: DEMONSTRATE API
 ```

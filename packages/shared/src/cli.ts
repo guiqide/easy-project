@@ -12,3 +12,9 @@ export interface IPluginData {
 export interface IUse {
   install: () => IPluginData;
 }
+
+export interface IOptions {
+  projectName: string;
+  selectedPlugins: IPluginData[];
+  isExistProject: boolean;
+}

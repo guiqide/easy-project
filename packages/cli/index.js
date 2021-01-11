@@ -1,3 +1,7 @@
 "use strict";
 
-module.exports = require("./dist/cli.js");
+if (process.env.NODE_ENV === "production") {
+  module.exports = require("./dist/cli.prod.js");
+} else {
+  module.exports = require("./dist/cli.js");
+}

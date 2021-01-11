@@ -1,4 +1,4 @@
-import { IPluginData } from "./interface";
+import { IPluginData } from "shared/cli";
 export function start(): void {
   this.pluginList;
 }
