@@ -1,11 +1,11 @@
 {
-  "name": "cyber-core",
+  "name": "cli-utils",
   "version": "0.1.1",
-  "description": "manage plugins",
+  "description": "utils function",
   "author": "kevingui <kevingui@tencent.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/cyber-core.js",
+  "main": "lib/cli-utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,5 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "fast-copy": "^2.1.1"
   }
 }

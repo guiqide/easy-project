@@ -1,11 +1,11 @@
 {
-  "name": "cyber-utils",
+  "name": "cli",
   "version": "0.1.1",
-  "description": "utils function",
+  "description": "> TODO: description",
   "author": "kevingui <kevingui@tencent.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/cyber-utils.js",
+  "main": "lib/cli.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://mirrors.tencent.com/npm/"
-  },
   "repository": {
     "type": "git",
     "url": "git@git.code.oa.com:easy-client/generate-project-boilerplate.git"
@@ -23,7 +20,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
-    "fast-copy": "^2.1.1"
+  "devDependencies": {
+    "@types/shelljs": "^0.8.8",
+    "shelljs": "^0.8.4"
   }
 }

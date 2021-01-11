@@ -1,11 +1,11 @@
-# `cyber-core`
+# `cli`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cyberCore = require('cyber-core');
+const cli = require('cli');
 
 // TODO: DEMONSTRATE API
 ```
