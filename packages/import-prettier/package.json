@@ -1,0 +1,29 @@
+{
+  "name": "import-prettier",
+  "version": "0.1.1",
+  "description": "import prettier",
+  "author": "kevingui <kevingui@tencent.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/import-prettier.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://mirrors.tencent.com/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.code.oa.com:easy-client/generate-project-boilerplate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
